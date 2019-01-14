@@ -16,8 +16,8 @@ Please do one of the following:
 1. Run the ANT script _build_res.xml_ to pack the files in the _resources_ directory into the archive _ev3rstormres.jar_. Then add this archive to your Eclipse project's classpath. The LeJOS Eclipse plugin will take care of the transfer of the archive to the EV3 brick before running the program.
 2. Upload (via SCP) the files in the _resources_ directory to your EV3 Brick to the directory _/home/lejos/lib_.
 
-The **image files** are converted from those found in the installation directory of the LEGO® Programming Environment (Education Edition):
-_c:\Program Files (x86)\LEGO Software\LEGO MINDSTORMS Edu EV3\Resources\BrickResources\Education\Images\files\_. 
+The **image files** are converted from those found in the installation directory of the LEGO® Programming Environment (Home Edition):
+_c:\Program Files (x86)\LEGO Software\LEGO MINDSTORMS EV3 Home Edition\Resources\BrickResources\Retail\Images\files_. 
 
 You can convert them with the LeJOS EV3 Image Converter program that is part of the EV3 Control Center or can run stand-alone from the bin directory of the LeJOS EV3 installation (ev3image.bat). Alas, the Image Converter is still adapted to the old Mindstorms NXT Brick and displays a warning if the loaded image exceeds 100x64 pixels. However, it correctly converts images for the Mindstorms EV3 with up to 178x128 pixels.
 
